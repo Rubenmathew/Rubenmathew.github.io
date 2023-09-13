@@ -39,17 +39,16 @@ h1 {
     font-size: 36px;
 }
 
-h2 {
-    font-size: 24px;
-}
-
-.portfolio-item {
-    margin: 20px 0;
-}
-
-.portfolio-item img {
+img {
     max-width: 100%;
     height: auto;
+    border-radius: 50%; /* To create a rounded profile picture */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
 }
 
 footer {
